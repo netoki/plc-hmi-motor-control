@@ -40,7 +40,7 @@ DC motor
 - Seal-in run latch with Start, Stop, and E-stop
 - Auto/Manual modes; changing mode drops the run command so the motor can't restart unexpectedly
 - Auto cycle: 5 s on, 2 s off, 3 cycles, then stops and waits for a new Start
-- Runtime fault: motor continuously on for 15 s latches a fault
+- Runtime fault: motor continuously on for 30 s latches a fault
 - Rising-edge fault reset, so a held or stuck reset can't clear or hide a fault
 - Communications watchdog: faults if the HMI heartbeat stops changing for 3 s
 - Startup interlock: the watchdog arms on the first heartbeat, and Start is blocked until it does
