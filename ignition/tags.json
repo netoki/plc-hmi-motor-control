@@ -1,0 +1,137 @@
+{
+  "name": "",
+  "tagType": "Provider",
+  "tags": [
+    {
+      "name": "SpeedCmd",
+      "opcItemPath": "[OpenPLC_Sim]1.HR1028",
+      "opcServer": "Ignition OPC UA Server",
+      "tagType": "AtomicTag",
+      "valueSource": "opc"
+    },
+    {
+      "dataType": "Boolean",
+      "name": "EStop",
+      "opcItemPath": "[OpenPLC_Sim]1.C8195",
+      "opcServer": "Ignition OPC UA Server",
+      "tagType": "AtomicTag",
+      "valueSource": "opc"
+    },
+    {
+      "alarms": [
+        {
+          "name": "Motor Run Time Exceeded",
+          "priority": "High",
+          "setpointA": 1.0
+        }
+      ],
+      "dataType": "Boolean",
+      "name": "RuntimeFault",
+      "opcItemPath": "[OpenPLC_Sim]1.C8199",
+      "opcServer": "Ignition OPC UA Server",
+      "tagType": "AtomicTag",
+      "valueSource": "opc"
+    },
+    {
+      "name": "CommArmed",
+      "opcItemPath": "[OpenPLC_Sim]1.C8201",
+      "opcServer": "Ignition OPC UA Server",
+      "tagType": "AtomicTag",
+      "valueSource": "opc"
+    },
+    {
+      "dataType": "Boolean",
+      "historyEnabled": true,
+      "historyProvider": "HomeHistorian",
+      "name": "Motor",
+      "opcItemPath": "[OpenPLC_Sim]1.C1",
+      "opcServer": "Ignition OPC UA Server",
+      "tagType": "AtomicTag",
+      "valueSource": "opc"
+    },
+    {
+      "name": "SpeedPct",
+      "opcItemPath": "[OpenPLC_Sim]1.HR1027",
+      "opcServer": "Ignition OPC UA Server",
+      "tagType": "AtomicTag",
+      "valueSource": "opc"
+    },
+    {
+      "dataType": "Boolean",
+      "name": "Start",
+      "opcItemPath": "[OpenPLC_Sim]1.C8193",
+      "opcServer": "Ignition OPC UA Server",
+      "tagType": "AtomicTag",
+      "valueSource": "opc"
+    },
+    {
+      "dataType": "Boolean",
+      "historyEnabled": true,
+      "historyProvider": "HomeHistorian",
+      "name": "Running",
+      "opcItemPath": "[OpenPLC_Sim]1.C8197",
+      "opcServer": "Ignition OPC UA Server",
+      "tagType": "AtomicTag",
+      "valueSource": "opc"
+    },
+    {
+      "dataType": "Boolean",
+      "name": "FaultReset",
+      "opcItemPath": "[OpenPLC_Sim]1.C8198",
+      "opcServer": "Ignition OPC UA Server",
+      "tagType": "AtomicTag",
+      "valueSource": "opc"
+    },
+    {
+      "dataType": "Int4",
+      "historyEnabled": true,
+      "historyProvider": "HomeHistorian",
+      "name": "CycleCount",
+      "opcItemPath": "[OpenPLC_Sim]1.HR1025",
+      "opcServer": "Ignition OPC UA Server",
+      "tagType": "AtomicTag",
+      "valueSource": "opc"
+    },
+    {
+      "alarms": [
+        {
+          "name": "Communication Failure",
+          "priority": "Critical"
+        }
+      ],
+      "dataType": "Boolean",
+      "name": "CommFault",
+      "opcItemPath": "[OpenPLC_Sim]1.C8200",
+      "opcServer": "Ignition OPC UA Server",
+      "tagType": "AtomicTag",
+      "valueSource": "opc"
+    },
+    {
+      "dataType": "Boolean",
+      "name": "Mode",
+      "opcItemPath": "[OpenPLC_Sim]1.C8196",
+      "opcServer": "Ignition OPC UA Server",
+      "tagType": "AtomicTag",
+      "valueSource": "opc"
+    },
+    {
+      "name": "_types_",
+      "tagType": "Folder"
+    },
+    {
+      "dataType": "Boolean",
+      "name": "Stop",
+      "opcItemPath": "[OpenPLC_Sim]1.C8194",
+      "opcServer": "Ignition OPC UA Server",
+      "tagType": "AtomicTag",
+      "valueSource": "opc"
+    },
+    {
+      "name": "HeartbeatIn",
+      "opcItemPath": "[OpenPLC_Sim]1.HR1026",
+      "opcServer": "Ignition OPC UA Server",
+      "tagType": "AtomicTag",
+      "valueSource": "opc"
+    }
+  ]
+}
