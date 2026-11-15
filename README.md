@@ -103,6 +103,7 @@ Internal-only variables (no address): `ModeLast`, `ModeChanged`, `CycleDone`, `F
 | Motor runs too long | PLC runtime timer (15 s) | `RuntimeFault` latches, motor stops |
 | Reset button held or stuck | Rising-edge detector | Fault still trips and stays visible |
 | Fault cleared | Run latch | Motor stays off until a new Start |
+| HMI doesn't show COMM LOST | Ignition OPC UA Server | HMI Components have dedicated conditionals for bad quality tags
 
 ---
 
